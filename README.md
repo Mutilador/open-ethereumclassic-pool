@@ -62,6 +62,8 @@ Change <code>ApiUrl: '//example.net/'</code> in <code>www/config/environment.js<
     npm install
     bower install
     ./build.sh
+    ember install ember-assign-polyfill
+    ./build.sh
 
 Configure nginx to serve API on <code>/api</code> subdirectory.
 Configure nginx to serve <code>www/dist</code> as static website.
