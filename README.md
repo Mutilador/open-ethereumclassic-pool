@@ -60,7 +60,7 @@ Change <code>ApiUrl: '//example.net/'</code> in <code>www/config/environment.js<
     npm install -g ember-cli@2.4.3
     npm install -g bower
     npm install
-    bower install
+    bower install --allow-root
     ./build.sh
     ember install ember-assign-polyfill
     ./build.sh
